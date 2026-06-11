@@ -416,6 +416,12 @@ However, commit objects still existed inside Git's object database.
 
 Using the commit SHA, we recreated the branch and recovered nearly two weeks of development effort.
 
+## Step 1: Find the commit SHA (if not known) => git reflog
+
+## Step 2: Create a new branch => git checkout -b recovered-feature abc1234
+
+## Step 3: Push to remote => git push origin recovered-feature
+
 ---
 
 ## Interview Answer
